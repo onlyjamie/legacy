@@ -1,17 +1,23 @@
 body {
   font-family: 'Roboto', sans-serif !important;
-  background-color: #fff !important;
+  background-color: #EEEEE9 !important;
 }
 
 a { 
   font-family: 'Roboto', sans-serif !important;
 }
 
-div.menu-wrapper { 
-  background-color: #313540 !important;
-}
+a:hover { color: #ff9933; }
 
 header.navigation {
   background-color: #313540 !important;
   border-bottom: 5px solid #FF9933;
+}
+
+.hero { 
+  background-image: url('http://i.imgur.com/uUec6B1.jpg');
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
 }
