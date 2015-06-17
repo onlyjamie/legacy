@@ -19,7 +19,8 @@ header.navigation {
   height: 15em;
   background-size: cover;
   background-position: center top;
-  margin-bottom: -100px !important;
+  margin-bottom: -100px !important; 
+  position: relative;
 }
 
 .hero { 
@@ -31,4 +32,7 @@ header.navigation {
   text-transform: uppercase;
   text-align: center !important;
   height: inherit;
+  border-top: 1px solid #ff9933;
+  position: absolute;
+  top: 50%;
 }
