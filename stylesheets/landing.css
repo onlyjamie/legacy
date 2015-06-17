@@ -33,7 +33,7 @@ header.navigation {
   text-transform: uppercase;
   text-align: center !important;
   height: inherit;
-  width: inherit;
+  width: 100%
   border-top: 1px solid #ff9933;
   display: table-cell;
   vertical-align: middle;
