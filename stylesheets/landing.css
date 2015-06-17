@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif !important;
+  background-color: #fff;
 }
 
 a { 
@@ -7,5 +8,5 @@ a {
 }
 
 header { 
-  background-color: rgb(49,53,64);
+  background-color: #313540 !important;
 }
