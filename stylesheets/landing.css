@@ -16,9 +16,10 @@ header.navigation {
 
 .subtitle {
   background-image: url('http://i.imgur.com/uUec6B1.jpg');
-  height: 10em;
+  height: 15em;
   background-size: cover;
-  margin-bottom: 0 !important;
+  background-position: center;
+  margin-bottom: -100px !important;
 }
 
 .hero { 
@@ -29,5 +30,5 @@ header.navigation {
   font-size: 2em;
   font-weight: 100;
   text-transform: uppercase;
-  text-align: left;
+  text-align: center !important;
 }
