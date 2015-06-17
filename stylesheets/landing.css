@@ -15,10 +15,10 @@ header.navigation {
 }
 
 .subtitle {
-  background-image: url('http://i.imgur.com/uUec6B1.jpg');
+  background-image: url('http://i.imgur.com/eZjuz5j.jpg');
   height: 15em;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   margin-bottom: -100px !important;
 }
 
@@ -31,4 +31,5 @@ header.navigation {
   font-weight: 100;
   text-transform: uppercase;
   text-align: center !important;
+  border: 1px solid red;
 }
