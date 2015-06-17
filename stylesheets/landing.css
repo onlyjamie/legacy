@@ -15,8 +15,8 @@ header.navigation {
 }
 
 @media only screen and (max-device-width: 480px) {
-.header-logo {
-  width: 50%;
+.header-logo img {
+  max-width: 50%;
 }
 }
 
