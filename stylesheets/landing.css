@@ -16,7 +16,6 @@ header.navigation {
 
 .subtitle {
   background-image: url('http://i.imgur.com/eZjuz5j.jpg');
-  background-color:rgba(0,0,0,0.5);
   height: 15em;
   background-size: cover;
   background-position: center top;
@@ -25,13 +24,14 @@ header.navigation {
 
 .hero { 
   background-size: cover;
+  background-color:rgba(0,0,0,0.5);
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 3.5em;
   font-weight: 100;
   text-transform: uppercase;
   text-align: center !important;
-  height: 15em;
-  display: table-cell
+  height: inherit;
+  display: table-cell;
   vertical-align: center;
 }
