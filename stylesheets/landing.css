@@ -21,6 +21,8 @@ header.navigation {
   background-position: center top;
   margin-bottom: -100px !important; 
   position: relative;
+  display: table;
+  width: 100%;
 }
 
 .hero { 
@@ -34,4 +36,6 @@ header.navigation {
   text-align: center !important;
   height: inherit;
   border-top: 1px solid #ff9933;
+  display: table-cell;
+  vertical-align: middle;
 }
