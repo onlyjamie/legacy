@@ -1,12 +1,12 @@
 body {
   font-family: 'Roboto', sans-serif !important;
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 a { 
   font-family: 'Roboto', sans-serif !important;
 }
 
-header { 
+div.menu-wrapper { 
   background-color: #313540 !important;
 }
