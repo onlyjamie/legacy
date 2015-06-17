@@ -10,3 +10,8 @@ a {
 div.menu-wrapper { 
   background-color: #313540 !important;
 }
+
+header.navigation {
+  background-color: #313540 !important;
+  border-bottom: 5px solid #FF9933;
+}
