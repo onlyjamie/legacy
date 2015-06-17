@@ -14,6 +14,12 @@ header.navigation {
   border-bottom: 5px solid #FF9933;
 }
 
+@media only screen and (max-device-width: 480px) {
+.header-logo {
+  width: 50%;
+}
+}
+
 .subtitle {
   background-image: url('http://i.imgur.com/eZjuz5j.jpg');
   height: 15em;
