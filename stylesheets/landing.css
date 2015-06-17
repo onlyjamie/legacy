@@ -14,12 +14,6 @@ header.navigation {
   border-bottom: 5px solid #FF9933;
 }
 
-@media only screen and (max-device-width: 480px) {
-.header-logo img {
-  max-width: 50%;
-}
-}
-
 .subtitle {
   background-image: url('http://i.imgur.com/eZjuz5j.jpg');
   height: 15em;
@@ -44,4 +38,16 @@ header.navigation {
   border-top: 1px solid #ff9933;
   display: table-cell;
   vertical-align: middle;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  .header-logo img {
+    max-width: 50%;
+  }
+  
+  .container {
+    margin-top: 0 !important;
+  }
+
 }
