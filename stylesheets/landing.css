@@ -14,10 +14,15 @@ header.navigation {
   border-bottom: 5px solid #FF9933;
 }
 
-.hero { 
+.subtitle {
   background-image: url('http://i.imgur.com/uUec6B1.jpg');
+  height: 1.5em;
+}
+
+.hero { 
   background-color: rgba(0,0,0,0.5);
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 3em;
+  text-align: center;
 }
