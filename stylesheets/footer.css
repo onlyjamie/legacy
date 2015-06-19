@@ -1,57 +1,80 @@
-footer.refills-footer {
-  color: silver;
-  padding-bottom: 2em;
-  padding-top: 1em;
-  text-align: center; }
-  /* line 7, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
-  footer.refills-footer a {
-    color: #f55481;
-    text-decoration: none; }
-  /* line 12, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
-  footer.refills-footer p {
-    font-size: 0.8em;
+.refills-patterns .footer-2 {
+  background: #40526b;
+  padding: 1.5em;
+  width: 100%;
+  display: inline-block; }
+  /* line 42, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+  .refills-patterns .footer-2 .footer-logo {
+    margin-right: 1em;
+    margin-bottom: 1em; }
+    @media screen and (min-width: 53.75em) {
+      /* line 42, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+      .refills-patterns .footer-2 .footer-logo {
+        float: left;
+        margin-bottom: 0; } }
+  /* line 52, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+  .refills-patterns .footer-2 .footer-logo img {
+    height: 1.6em; }
+  /* line 56, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+  .refills-patterns .footer-2 ul {
     line-height: 1.5em;
-    margin: 0 1em; }
+    margin: 0 0 1em 0;
+    padding: 0; }
     @media screen and (min-width: 53.75em) {
-      /* line 12, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
-      footer.refills-footer p {
-        font-size: 1em; } }
-  /* line 22, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
-  footer.refills-footer .refills-footer-logo {
-    margin-bottom: 2em; }
-  /* line 26, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
-  footer.refills-footer img {
-    display: block;
-    height: 60px;
-    margin: auto; }
-    /* line 9, /Users/Magnus/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.1.1/app/assets/stylesheets/addons/_clearfix.scss */
-    footer.refills-footer img::after {
-      clear: both;
-      content: "";
-      display: table; }
-  /* line 33, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
-  footer.refills-footer .footer-links {
-    border-top: 2px solid;
-    display: inline-block;
-    font-family: "Oswald", sans-serif;
-    font-weight: 300;
+      /* line 56, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+      .refills-patterns .footer-2 ul {
+        float: left;
+        line-height: 1.8em;
+        margin-left: 1em;
+        margin-bottom: 0; } }
+  /* line 69, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+  .refills-patterns .footer-2 ul li {
+    font-weight: 800;
+    list-style: none;
+    padding-right: 1em; }
+    @media screen and (min-width: 53.75em) {
+      /* line 69, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+      .refills-patterns .footer-2 ul li {
+        display: inline;
+        text-align: left; } }
+  /* line 80, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+  .refills-patterns .footer-2 ul li a {
+    color: rgba(255, 255, 255, 0.4);
+    text-decoration: none; }
+    /* line 84, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+    .refills-patterns .footer-2 ul li a:focus, .refills-patterns .footer-2 ul li a:hover {
+      color: white; }
+  @media screen and (min-width: 53.75em) {
+    /* line 90, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+    .refills-patterns .footer-2 .footer-secondary-links {
+      float: right; } }
+  /* line 95, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+  .refills-patterns .footer-2 .footer-secondary-links li {
     font-size: 0.8em;
-    margin-bottom: 4em;
-    padding: 0.6em;
-    text-transform: uppercase; }
+    font-weight: 400; }
+  /* line 100, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+  .refills-patterns .footer-2 .footer-secondary-links ul.footer-social {
+    margin: 1em 0 0 0; }
     @media screen and (min-width: 53.75em) {
-      /* line 33, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
-      footer.refills-footer .footer-links {
-        font-size: 1em;
-        padding: 1em; } }
-    /* line 48, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
-    footer.refills-footer .footer-links li {
-      display: inline;
-      padding: 0.4em; }
-      /* line 52, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
-      footer.refills-footer .footer-links li a {
-        color: #a7a7a7;
-        text-decoration: none; }
-        /* line 56, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
-        footer.refills-footer .footer-links li a:hover {
-          color: #f55481; }
+      /* line 100, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+      .refills-patterns .footer-2 .footer-secondary-links ul.footer-social {
+        float: right;
+        margin-top: 0; } }
+    /* line 108, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+    .refills-patterns .footer-2 .footer-secondary-links ul.footer-social li {
+      font-size: 1em;
+      float: left;
+      line-height: 0;
+      margin: 0;
+      padding-right: 0.7em; }
+      /* line 115, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+      .refills-patterns .footer-2 .footer-secondary-links ul.footer-social li:last-child {
+        padding-right: 0; }
+    /* line 120, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+    .refills-patterns .footer-2 .footer-secondary-links ul.footer-social img {
+      height: 1.6em;
+      opacity: 0.7;
+      padding: 1px; }
+      /* line 125, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
+      .refills-patterns .footer-2 .footer-secondary-links ul.footer-social img:focus, .refills-patterns .footer-2 .footer-secondary-links ul.footer-social img:hover {
+        opacity: 1; }
