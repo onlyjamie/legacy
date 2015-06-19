@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif !important;
-  background-color: #EEEEE9 !important;
+  background-color: #313540 !important;
 }
 
 a { 
@@ -10,7 +10,7 @@ a {
 a:hover { color: #ff9933; }
 
 header.navigation {
-  background-color: #313540 !important;
+  background-color: #1d2028 !important;
   border-bottom: 5px solid #FF9933;
 }
 
