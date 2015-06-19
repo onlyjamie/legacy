@@ -1,0 +1,57 @@
+footer.refills-footer {
+  color: silver;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  text-align: center; }
+  /* line 7, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
+  footer.refills-footer a {
+    color: #f55481;
+    text-decoration: none; }
+  /* line 12, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
+  footer.refills-footer p {
+    font-size: 0.8em;
+    line-height: 1.5em;
+    margin: 0 1em; }
+    @media screen and (min-width: 53.75em) {
+      /* line 12, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
+      footer.refills-footer p {
+        font-size: 1em; } }
+  /* line 22, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
+  footer.refills-footer .refills-footer-logo {
+    margin-bottom: 2em; }
+  /* line 26, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
+  footer.refills-footer img {
+    display: block;
+    height: 60px;
+    margin: auto; }
+    /* line 9, /Users/Magnus/.rbenv/versions/2.1.5/lib/ruby/gems/2.1.0/gems/bourbon-4.1.1/app/assets/stylesheets/addons/_clearfix.scss */
+    footer.refills-footer img::after {
+      clear: both;
+      content: "";
+      display: table; }
+  /* line 33, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
+  footer.refills-footer .footer-links {
+    border-top: 2px solid;
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-bottom: 4em;
+    padding: 0.6em;
+    text-transform: uppercase; }
+    @media screen and (min-width: 53.75em) {
+      /* line 33, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
+      footer.refills-footer .footer-links {
+        font-size: 1em;
+        padding: 1em; } }
+    /* line 48, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
+    footer.refills-footer .footer-links li {
+      display: inline;
+      padding: 0.4em; }
+      /* line 52, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
+      footer.refills-footer .footer-links li a {
+        color: #a7a7a7;
+        text-decoration: none; }
+        /* line 56, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/_refills-footer.scss */
+        footer.refills-footer .footer-links li a:hover {
+          color: #f55481; }
