@@ -80,4 +80,4 @@
       .footer-2 .footer-secondary-links ul.footer-social img:focus, .refills-patterns .footer-2 .footer-secondary-links ul.footer-social img:hover {
         opacity: 1; }
 
-footer { margin-bottom: 0 !important; }
+footer { position: absolute; bottom: 0; }
