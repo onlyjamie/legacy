@@ -1,5 +1,6 @@
 .footer-2 {
-  background: #313540;
+  background: rgb(29,32,40);
+  color: #bdc0c6;
   padding: 1.5em;
   width: 100%;
   display: inline-block; }
@@ -59,7 +60,7 @@
       /* line 100, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
       .footer-2 .footer-secondary-links ul.footer-social {
         float: right;
-        margin-top: 0; } }
+        margin-top: 0.05em } }
     /* line 108, /Users/Magnus/Documents/thoughtbot/refills/source/stylesheets/refills/_footer-2.scss */
      .footer-2 .footer-secondary-links ul.footer-social li {
       font-size: 1em;
