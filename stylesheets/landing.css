@@ -43,8 +43,8 @@ header.navigation {
 
 .hero quote { 
   font-size: 0.5em;
-  clear: both;
-  color:rgba(255,255,255,0.8);
+  display: block;
+  color: #ccc;
 }
 
 @media only screen and (max-device-width: 480px) {
