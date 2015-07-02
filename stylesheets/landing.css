@@ -31,7 +31,7 @@ header.navigation {
   background-size: cover;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 100;
   text-transform: uppercase;
   text-align: center !important;
@@ -42,8 +42,9 @@ header.navigation {
 }
 
 .hero span { 
-  font-size: 1.5em;
+  font-size: 0.5em;
   clear: both;
+  color:rgba(255,255,255,0.5);
 }
 
 @media only screen and (max-device-width: 480px) {
