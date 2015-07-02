@@ -41,10 +41,10 @@ header.navigation {
   vertical-align: middle;
 }
 
-.hero span { 
+.hero quote { 
   font-size: 0.5em;
   clear: both;
-  color:rgba(255,255,255,0.5);
+  color:rgba(255,255,255,0.8);
 }
 
 @media only screen and (max-device-width: 480px) {
